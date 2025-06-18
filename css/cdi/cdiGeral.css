@@ -11,7 +11,7 @@ header {
 .wrapperMain {
   display: flex;
   align-items: flex-start;
-  justify-items: center;
+  justify-content: center;
   padding: 30px 20px;
 }
 .content {

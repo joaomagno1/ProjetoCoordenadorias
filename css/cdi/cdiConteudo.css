@@ -1,0 +1,90 @@
+/* Sobre */
+.acronymTitle {
+  font-size: 36px;
+  color: #0D3718;
+  font-weight: 600; 
+  padding-bottom: 11px;
+  border-bottom: 1px solid #38B75A;
+  display: inline-block;
+}
+.mainTitle {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.subTitle{ 
+  font-size: 300;
+  font-size: 14px;
+  color: #121212;
+  text-align: center;
+}
+/* Sobre */
+
+/* Responsavel */
+.secondaryTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0D3718;
+}
+.styledListText,
+.textAssignments,
+.textResponsible{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.listResponsible {
+  list-style: none;
+}
+
+/* lista */
+.wrapperFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.wrapperFlex > div:not(.wrapperCommunicate) {
+  max-width: 406px;
+  width: 100%;
+}
+.styledList {
+  list-style: none;
+}
+.styledListText::before {
+  content: url('../../img/list-icon.png');
+  margin-right: 10px;
+}
+
+/* mobile */
+
+@media (max-width: 700px) {
+
+  /* sobre */
+  .acronymTitle {
+    font-size: 23px;
+    padding-bottom: 7px;
+  }
+  .mainTitle {
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  .subTitle{ 
+    font-size: 12px;
+  }
+
+  /* sobre */
+
+  /* lista estilizada */
+  .wrapperFlex {
+    flex-direction: column;
+  }
+  .textAssignments,
+  .wrapperContainer:not(.containerResponsible) .secondaryTitle {
+    text-align: center;
+  }
+  .styledList {
+    margin-bottom: 20px;
+  }
+}
