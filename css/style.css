@@ -1,90 +1,98 @@
 :root {
-    --cor-primaria: #195128;
-    --cor-primaria-hover: #00420c;
-    --cor-gradiente: #38B75A;
-    --background-principal: linear-gradient(to right, #195128, #38B75A);
-    --cor-secundaria: #fff;
-    --cor-texto: #333;
-    --swiper-theme-color: #006437; /* Mesma cor da variável --cor-principal */
-    --swiper-navigation-size: 30px; /* Tamanho das setas do carrossel*/
+  --cor-primaria: #195128;
+  --cor-primaria-hover: #00420c;
+  --cor-gradiente: #38B75A;
+  --background-principal: linear-gradient(to right, #195128, #38B75A);
+  --cor-secundaria: #fff;
+  --cor-texto: #333;
+  --swiper-theme-color: #006437;
+  --swiper-navigation-size: 30px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-/*body{
-    color: var(--cor-texto);
-    background-color: var(--cor-secundaria);
-}*/
-
-.container{
-    max-width: 960px;
-    margin: 0 auto; /*centraliza o conteudo*/
-    padding: 20px;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* --- Cabeçalho --- */
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    background: var(--background-principal);
-    background-color: var(--background-principal);
-    padding: 15px 0;
-    justify-content: center;
+  background-color: var(--cor-primaria);
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header .container {
+  height: 65px;
+  display: flex;
+  align-items: center;
 }
 
-header nav ul { /*menu do header*/
-    color: var(--cor-secundaria);
-    text-decoration: none;
-    font-weight: 500;
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Espaçamento entre os itens do menu */
-    margin: 0;
-    padding: 0;
+#logo {
+  height: 65px;
+  width: auto;
+  align-items: center;
 }
 
-header nav a {
-    color: var(--cor-secundaria);
-    text-decoration: none;
-    font-weight: 500;
-}
-.logo{
-    margin-right: 10px;
+.main-nav {
+  background-color: var(--cor-primaria);
+  padding: 5px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: var(--cor-primaria);
+.main-nav .container {
+  justify-content: center;
+  display: flex;
 }
 
-footer{
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: -10px; /* Alinhamento com a caixa branca principal */
-    background: var(--background-principal);
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
 }
 
+.main-nav a {
+  color: var(--cor-secundaria);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  display: block;
+  transition: background-color 0.2s ease-in-out;
+}
 
+.main-nav a:hover {
+  background-color: var(--cor-primaria-hover);
+}
 
-/* --- ESTILOS DO CARROSSEL SWIPER --- */
+h1,
+h2,
+h3 {
+  color: var(--cor-primaria);
+}
+
+footer {
+  color: var(--cor-secundaria);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: -10px;
+  background: var(--background-principal);
+}
+
 #colaboradores .swiper {
-    padding-bottom: 40px; /* Espaço para as bolinhas de paginação não ficarem coladas */
+  padding-bottom: 40px;
 }
 
 .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
