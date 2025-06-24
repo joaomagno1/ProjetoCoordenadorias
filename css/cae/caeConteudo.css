@@ -100,3 +100,32 @@ div.membro{
 #colaboradores h2{
     margin-left: 40%;
 }
+
+/*         Área dos Contatos          */
+.contato-info {
+    display: flex;          
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: 0 0 100px 100px; /* Margem para separar do conteúdo */
+}
+
+.contato-info p {
+    /* 4. Define a largura base de cada item */
+    flex-basis: calc(50% - 8px); /* 50% do container, menos metade do 'gap' */
+
+    margin-left: 0;
+    padding: 20px;
+
+    /* Garante que padding e border não alterem a largura final */
+    box-sizing: border-box; 
+    text-align: left;
+    
+    /* Permite que o item cresça e ocupe o espaço vago */
+    flex-grow: 1;             
+    flex-basis: 40%;
+}
+
+.contato h2{
+    margin-left: 40%;
+    margin-top: 60px;
+}
