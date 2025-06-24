@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cae/caeConteudo.css">
     <link rel="stylesheet" href="../css/style.css">
 
     <!--Links para bibliotecas para o menu carrosel dos colaboradores-->
@@ -24,7 +25,6 @@
           <img id="logo" src="../img/ifsp.png" alt="Logo IFSP">
         </a>
       </div>
-
       <nav class="main-nav">
         <div class="container navContainer">
           <ul class="navMenu">
@@ -79,12 +79,14 @@
         </div>
       </nav>
     </header>
-
-    <main>
+    
+    <main class="container conteudoMain">
       <div class="container">
         <section class="conteudo1">
-          <h1>CAE</h1>
+          <div class="conteudo1-titulo">
+          <p class="acronymTitle">CAE</p>
           <h1>COORDENADORIA DE APOIO AO ENSINO</h1>
+          </div>
           <div class="conteudo1-texto">
             <p>A Coordenadoria de Apoio ao Ensino – CAE, é um setor vinculado à Diretoria Adjunta Educacional e que tem
               por atribuições realizar atendimentos ao corpo docente, discente e aos pais dos alunos deste Campus. Possui
@@ -96,23 +98,32 @@
         <section class="funcoes">
           <h2>FUNÇÕES</h2>
           <details>
-            <summary>FUNÇÕES DAS AULAS</summary>
+            <summary class="acronymSummary">GESTÃO DAS AULAS</summary>
             <p>A Coordenadoria de Apoio ao Ensino – CAE, é um setor vinculado à Diretoria Adjunta Educacional e que tem
               por atribuições realizar atendimentos ao corpo docente, discente e aos pais dos alunos deste Campus. Possui
               coordenação direta e a Assistência de Alunos. Atualmente conta com uma Pedagoga, uma nutricionista, um
               Técnico em Assuntos Educacionais e quatro Assistentes de Alunos.</p>
           </details>
           <details>
-            <summary>FUNÇOES DAS AULAS</summary>
-            <p></p>
+            <summary class="acronymSummary">GESTÃO DAS AULAS</summary>
+            <p>A Coordenadoria de Apoio ao Ensino – CAE, é um setor vinculado à Diretoria Adjunta Educacional e que tem
+              por atribuições realizar atendimentos ao corpo docente, discente e aos pais dos alunos deste Campus. Possui
+              coordenação direta e a Assistência de Alunos. Atualmente conta com uma Pedagoga, uma nutricionista, um
+              Técnico em Assuntos Educacionais e quatro Assistentes de Alunos.</p>
           </details>
           <details>
-            <summary>FUNÇOES DAS AULAS</summary>
-            <p></p>
+            <summary class="acronymSummary">GESTÃO DAS AULAS</summary>
+            <p>A Coordenadoria de Apoio ao Ensino – CAE, é um setor vinculado à Diretoria Adjunta Educacional e que tem
+              por atribuições realizar atendimentos ao corpo docente, discente e aos pais dos alunos deste Campus. Possui
+              coordenação direta e a Assistência de Alunos. Atualmente conta com uma Pedagoga, uma nutricionista, um
+              Técnico em Assuntos Educacionais e quatro Assistentes de Alunos.</p>
           </details>
           <details>
-            <summary>FUNÇOES DAS AULAS</summary>
-            <p></p>
+            <summary class="acronymSummary">GESTÃO DAS AULAS</summary>
+            <p>A Coordenadoria de Apoio ao Ensino – CAE, é um setor vinculado à Diretoria Adjunta Educacional e que tem
+              por atribuições realizar atendimentos ao corpo docente, discente e aos pais dos alunos deste Campus. Possui
+              coordenação direta e a Assistência de Alunos. Atualmente conta com uma Pedagoga, uma nutricionista, um
+              Técnico em Assuntos Educacionais e quatro Assistentes de Alunos.</p>
           </details>
         </section>
         <section id="colaboradores">
@@ -124,50 +135,36 @@
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 1">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 2">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 3">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 4">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 5">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 6">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 7">
                 </div>
               </div>
-            </div>
-            <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="membro">
                   <img src="/img/iconcolaborator.jpg" width="146px" height="146px" alt="Colaborador 8">
@@ -197,29 +194,6 @@
     </footer>
     <!--script para o menu carrosel dos colaboradores-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.meu-slider', {
-        // Quantos slides aparecerão ao mesmo tempo
-        slidesPerView: 4,
-        // Espaço entre os slides
-        spaceBetween: 30,
-        // Deixa o slider em loop infinito
-        loop: true,
-
-        // Configuração da paginação (bolinhas)
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-
-        // Configuração das setas de navegação
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }
-      });
-    </script>
-
     <script src="/javascript/script.js"></script>
   </body>
 

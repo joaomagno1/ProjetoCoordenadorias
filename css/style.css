@@ -114,12 +114,4 @@ footer {
   background: var(--background-principal);
 }
 
-#colaboradores .swiper {
-  padding-bottom: 40px;
-}
 
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

@@ -1,0 +1,102 @@
+.conteudo1-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 20px 20px 20px; 
+
+}
+
+.conteudo1-texto p {
+    padding-top: 130px;
+}
+
+.conteudo1-titulo{
+    padding: 40px 0;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.conteudoMain {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.conteudoMain{
+    max-width: 960px;
+    width: 100%;
+    box-shadow: 0px 2px 2px 2px rgba(25, 81, 40, 0.1);
+    padding: 34px 55px 80px;
+}
+
+.acronymTitle {
+    font-size: 36px;
+    color: #0D3718;
+    font-weight: 600; 
+    padding-bottom: 11px;
+    border-bottom: 1px solid #38B75A;
+    display: inline-block;
+}
+
+/*          bloco de detalhes das funções            */
+.acronymSummary{
+    color: #0D3718;
+    font-weight: 600; 
+    padding-bottom: 11px;
+    border-bottom: 1px solid #38B75A;
+    display: flex;
+}
+
+.funcoes h2{
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 60px;
+}
+
+.funcoes summary {
+    font-size: 20px;
+    font-weight: 540;
+    color: #0D3718;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+/*         Carrossel dos Colaboradores           */
+
+#colaboradores .swiper {
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colaboradores {
+  margin-left: 300px;
+}
+
+.swiper-button-next::after{
+    color: #0D3718;
+    width: 30px;
+    height: 30px;
+}
+
+.swiper-button-prev::after{
+    color: #0D3718;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+div.membro{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#colaboradores h2{
+    margin-left: 40%;
+}
