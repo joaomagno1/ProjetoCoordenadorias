@@ -1,13 +1,3 @@
-header {
-  display: flex;
-  justify-content: flex-end;
-  background: var(--background-principal);
-  background-color: var(--background-principal);
-  padding: 15px 0;
-  justify-content: center;
-  height: 200px;
-  width: 100vw;
-}
 .wrapperMain {
   display: flex;
   align-items: flex-start;
