@@ -1,0 +1,169 @@
+main {
+  max-width: 800px;
+  background: #fff;
+  margin: 32px auto 32px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px #0002;
+  padding: 24px 16px;
+  color: var(--cor-texto);
+}
+
+.intro {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 4em;
+}
+
+.intro h1 {
+  font-size: 1.7em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--cor-primaria);
+}
+
+.cap-logo {
+  width: 90px;
+  margin: 10px auto 14px auto;
+  display: block;
+}
+
+.intro p {
+  color: #444;
+  font-size: 1.08em;
+  margin-bottom: 4px;
+}
+
+.info-section,
+.almoxarifado,
+.patrimonio,
+.mais-oficios {
+  background: #ffecb3;
+  margin: 4em 0;
+  border-radius: 8px;
+  padding: 20px 12px;
+}
+
+
+.info-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.info-content img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.info-content div {
+  flex: 1;
+}
+
+.info-content h2 {
+  font-size: 1.2em;
+  color: var(--cor-primaria);
+  margin-bottom: 8px;
+}
+
+.info-content ul {
+  padding-left: 18px;
+  color: #444;
+  font-size: 1em;
+}
+
+.colaboradores {
+  text-align: center;
+  margin: 28px 0 10px 0;
+}
+
+.colaboradores h2 {
+  color: var(--cor-primaria);
+  margin-bottom: 16px;
+}
+
+.colab-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.colab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.colab img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.colab span {
+  font-size: 1em;
+  color: #222;
+}
+
+.contato {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+.contato h2 {
+  color: var(--cor-primaria);
+  margin-bottom: 12px;
+}
+
+.contato ul {
+  list-style: none;
+  font-size: 1.08em;
+  color: #444;
+}
+
+footer .footer-bar {
+  background: var(--background-principal);
+  height: 28px;
+  margin-top: 24px;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  main {
+    max-width: 98vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 1.15em;
+  }
+
+  main {
+    padding: 10px 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .info-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .colab-list {
+    gap: 14px;
+  }
+
+  .colab {
+    width: 75px;
+  }
+}
