@@ -114,3 +114,10 @@ footer {
   margin-top: -10px;
   background: var(--background-principal);
 }
+
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+}
+
