@@ -29,28 +29,4 @@ const swiper = new Swiper('.meu-slider', {
   mousewheel: {
       invert: false,
   },
-
-  // Responsividade
-  breakpoints: {
-    // telas até 480px (celulares pequenos)
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 10
-    },
-    // telas até 768px (celulares grandes/tablets)
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 15
-    },
-    // telas até 1024px (tablets/laptops pequenos)
-    768: {
-      slidesPerView: 3,
-      spaceBetween: 20
-    },
-    // telas maiores (desktop)
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    }
-  }
 });
